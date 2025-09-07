@@ -1,5 +1,3 @@
-# langchain-chroma-rag-pipeline  
-  
 # RAG System
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** playground around SEC 10‑K filings. Built to play around with **RAG** concepts.
