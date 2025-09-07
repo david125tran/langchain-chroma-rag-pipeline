@@ -20,6 +20,11 @@ root/
       └── */               
       └── chroma.sqlite3.sqlite3
 ```
+## Data / Knowledge Base
+
+- **Dataset:** [S&P 500 EDGAR 10-K (Hugging Face)](https://huggingface.co/datasets/jlohding/sp500-edgar-10k)
+- **Provenance:** Original filings from SEC EDGAR; mirrored on Hugging Face for research use.
+
 
 ## Setup
 **Python 3.12**
@@ -72,4 +77,6 @@ set TRANSFORMERS_NO_TORCHVISION=1
 - Hybrid retrieval: BM25 → semantic re-rank.
 - Finder questions: aggregate hits by `meta['company']` when no company is given.
 - Swap in a stronger LLM or an API model for better answers.
+
+
 
