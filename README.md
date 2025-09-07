@@ -17,7 +17,7 @@ root/
 ├── RAG Pipeline.py
 └── VectorDB/
    └── edgar_10k_chroma_*/       # Unzip your Vector Store DB to this directory 
-      └── */               
+      └── edgar_10k_chroma_YYYYMMDD_HHMMSS/               
       └── chroma.sqlite3.sqlite3
 ```
 ## Data / Knowledge Base
